@@ -1,0 +1,152 @@
+/* Stylesheet for Mockup Portfolio */
+
+/*------------------ FONTS ------------------*/
+@font-face {
+	font-family: "Baron-Neue";
+	src: url("fonts/Baron-Neue.otf");
+}
+
+@font-face {
+	font-family: "Simplifica";
+	src: url("fonts/Simplifica.ttf");
+}
+/*------------------ BODY -------------------*/
+body {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+h1 {
+	font-family: "Baron-Neue";
+	font-size: 48px;
+	color: #006a6a;
+}
+
+h2 {
+	font-family: "Simplifica";
+	font-size: 32px;
+	letter-spacing: 2px;
+	color: #ff8e1d;
+}
+
+h3 {
+	font-family: "Simplifica";
+	font-size: 24px;
+	color: #35AFAD;
+}
+
+/*------------------ HEADER -----------------*/
+/*-- Containers --*/
+header {
+	padding-left: 200px;
+}
+
+#header-content {
+	max-height: 150px;
+	
+	background-color: #35AFAD;
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+#header-col {
+	flex-grow: 1;
+	flex-shrink: 1;
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*-- Elements --*/
+#title-wrapper {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: right;
+}
+
+header h1 {
+	margin: 0px;
+}
+
+header h2 {
+	margin: 0px;
+}
+
+#logo {
+	width: 200px;
+	max-height: 150px; 
+}
+
+/*------------------- MAIN ------------------*/
+main {
+	margin-left: 200px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*-- Sidebar --*/
+#sidebar {
+	margin-left: -200px;
+	width: 200px;
+	float: left;
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.color-box {
+	width: 100px;
+	height: 100px;
+	margin-left: 25%;
+}
+
+#green {
+	background-color: #35AFAD;
+}
+
+#dark-green {
+	background-color: #006a6a;
+}
+
+#orange {
+	background-color: #ff8e1d;
+}
+
+/*-- Page --*/
+#page {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-el {
+	max-width: 100%;
+	flex: 1 1;
+	justify-content: center;
+	flex-direction: column;
+	
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#code {
+	width: 100%;
+}
+
+
+
